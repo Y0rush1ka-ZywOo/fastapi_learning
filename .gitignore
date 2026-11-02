@@ -1,0 +1,51 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- 构建 / 打包产物 ----
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+
+# ---- 测试 / 类型检查 / lint 缓存 ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ---- IDE（PyCharm / VSCode）----
+.idea/
+.vscode/
+*.iml
+
+# ---- 环境变量 / 密钥（不要提交任何真实密钥）----
+.env
+.env.*
+!.env.example
+
+# ---- 日志 / 数据库 / 本地数据 ----
+*.log
+logs/
+*.sqlite
+*.sqlite3
+*.db
+
+# ---- 系统文件 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 其他 ----
+*.local
